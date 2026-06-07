@@ -31,7 +31,7 @@ export default async function CustomerDashboardPage() {
     <div>
       <div className="mb-7">
         <h1 className="text-2xl font-bold text-gray-900">
-          Welcome back, {profile?.full_name?.split(' ')[0] || 'Customer'}!
+         Welcome back, {(profile as any)?.full_name?.split(' ')[0] || 'Customer'}!
         </h1>
         <p className="text-sm text-gray-500 mt-0.5">Here&apos;s your account overview</p>
       </div>

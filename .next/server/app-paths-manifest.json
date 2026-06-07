@@ -1,8 +1,8 @@
 {
   "/owner/dashboard/page": "app/owner/dashboard/page.js",
-  "/owner/orders/page": "app/owner/orders/page.js",
-  "/owner/products/page": "app/owner/products/page.js",
-  "/customer/orders/page": "app/customer/orders/page.js",
   "/customer/products/page": "app/customer/products/page.js",
-  "/customer/cart/page": "app/customer/cart/page.js"
+  "/customer/dashboard/page": "app/customer/dashboard/page.js",
+  "/owner/orders/page": "app/owner/orders/page.js",
+  "/customer/cart/page": "app/customer/cart/page.js",
+  "/customer/orders/page": "app/customer/orders/page.js"
 }

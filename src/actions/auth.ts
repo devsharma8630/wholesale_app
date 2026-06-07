@@ -16,8 +16,21 @@ export async function login(formData: FormData) {
     return { error: error.message };
   }
 
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: 'Authentication failed' };
+
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('role')
+    .eq('id', user.id)
+    .single();
+
   revalidatePath('/', 'layout');
-  redirect('/owner/dashboard');
+
+  if ((profile as any)?.role === 'owner') {
+    redirect('/owner/dashboard');
+  }
+  redirect('/customer/dashboard');
 }
 
 export async function register(formData: FormData) {
@@ -45,11 +58,13 @@ export async function register(formData: FormData) {
     return { error: 'Failed to create user' };
   }
 
-  const { error: profileError } = await supabase.from('profiles').insert({
+  // Use any to bypass strict type checking on insert
+  const sb = supabase as any;
+  const { error: profileError } = await sb.from('profiles').insert({
     id: data.user.id,
     full_name,
     phone,
-    role: role as 'owner' | 'customer',
+    role,
   });
 
   if (profileError) {

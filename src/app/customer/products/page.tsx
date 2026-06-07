@@ -26,7 +26,7 @@ export default function CustomerProductsPage() {
 
       if (data) {
         setProducts(data);
-        const cats = [...new Set(data.map((p) => p.category))].sort();
+        const cats = [...new Set((data as any[]).map((p) => p.category))].sort();
         setCategories(cats);
       }
       setLoading(false);

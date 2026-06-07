@@ -5,6 +5,7 @@ import { createClient } from '@/lib/supabase/server';
 
 export async function createProduct(formData: FormData) {
   const supabase = await createClient();
+  const sb = supabase as any;
 
   const name = formData.get('name') as string;
   const description = formData.get('description') as string;
@@ -18,23 +19,15 @@ export async function createProduct(formData: FormData) {
   if (imageFile && imageFile.size > 0) {
     const fileExt = imageFile.name.split('.').pop();
     const fileName = `${Date.now()}.${fileExt}`;
-
     const { data: uploadData, error: uploadError } = await supabase.storage
       .from('product-images')
       .upload(fileName, imageFile, { cacheControl: '3600', upsert: false });
-
-    if (uploadError) {
-      return { error: uploadError.message };
-    }
-
-    const { data: urlData } = supabase.storage
-      .from('product-images')
-      .getPublicUrl(uploadData.path);
-
+    if (uploadError) return { error: uploadError.message };
+    const { data: urlData } = supabase.storage.from('product-images').getPublicUrl(uploadData.path);
     image_url = urlData.publicUrl;
   }
 
-  const { error } = await supabase.from('products').insert({
+  const { error } = await sb.from('products').insert({
     name,
     description: description || null,
     category,
@@ -52,6 +45,7 @@ export async function createProduct(formData: FormData) {
 
 export async function updateProduct(id: string, formData: FormData) {
   const supabase = await createClient();
+  const sb = supabase as any;
 
   const name = formData.get('name') as string;
   const description = formData.get('description') as string;
@@ -65,17 +59,11 @@ export async function updateProduct(id: string, formData: FormData) {
   if (imageFile && imageFile.size > 0) {
     const fileExt = imageFile.name.split('.').pop();
     const fileName = `${Date.now()}.${fileExt}`;
-
     const { data: uploadData, error: uploadError } = await supabase.storage
       .from('product-images')
       .upload(fileName, imageFile, { cacheControl: '3600', upsert: false });
-
     if (uploadError) return { error: uploadError.message };
-
-    const { data: urlData } = supabase.storage
-      .from('product-images')
-      .getPublicUrl(uploadData.path);
-
+    const { data: urlData } = supabase.storage.from('product-images').getPublicUrl(uploadData.path);
     image_url = urlData.publicUrl;
   }
 
@@ -87,11 +75,9 @@ export async function updateProduct(id: string, formData: FormData) {
     stock_quantity,
   };
 
-  if (image_url !== undefined) {
-    updateData.image_url = image_url;
-  }
+  if (image_url !== undefined) updateData.image_url = image_url;
 
-  const { error } = await supabase.from('products').update(updateData).eq('id', id);
+  const { error } = await sb.from('products').update(updateData).eq('id', id);
 
   if (error) return { error: error.message };
 
@@ -102,8 +88,9 @@ export async function updateProduct(id: string, formData: FormData) {
 
 export async function deleteProduct(id: string) {
   const supabase = await createClient();
+  const sb = supabase as any;
 
-  const { error } = await supabase.from('products').delete().eq('id', id);
+  const { error } = await sb.from('products').delete().eq('id', id);
 
   if (error) return { error: error.message };
 

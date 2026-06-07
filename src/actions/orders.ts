@@ -6,6 +6,7 @@ import { CartItem, OrderStatus } from '@/types';
 
 export async function placeOrder(cartItems: CartItem[]) {
   const supabase = await createClient();
+  const sb = supabase as any;
 
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: 'Not authenticated' };
@@ -14,12 +15,11 @@ export async function placeOrder(cartItems: CartItem[]) {
 
   const total_items = cartItems.reduce((sum, item) => sum + item.quantity, 0);
   const total_price = cartItems.reduce(
-    (sum, item) => sum + item.product.price * item.quantity,
-    0
+    (sum, item) => sum + item.product.price * item.quantity, 0
   );
 
   // Create order
-  const { data: order, error: orderError } = await supabase
+  const { data: order, error: orderError } = await sb
     .from('orders')
     .insert({
       customer_id: user.id,
@@ -42,17 +42,16 @@ export async function placeOrder(cartItems: CartItem[]) {
     price_at_order: item.product.price,
   }));
 
-  const { error: itemsError } = await supabase.from('order_items').insert(orderItems);
+  const { error: itemsError } = await sb.from('order_items').insert(orderItems);
 
   if (itemsError) {
-    // Rollback order
-    await supabase.from('orders').delete().eq('id', order.id);
+    await sb.from('orders').delete().eq('id', order.id);
     return { error: itemsError.message };
   }
 
-  // Reduce stock quantities
+  // Reduce stock
   for (const item of cartItems) {
-    await supabase.rpc('decrement_stock', {
+    await sb.rpc('decrement_stock', {
       product_id: item.product.id,
       quantity: item.quantity,
     });
@@ -65,8 +64,9 @@ export async function placeOrder(cartItems: CartItem[]) {
 
 export async function updateOrderStatus(orderId: string, status: OrderStatus) {
   const supabase = await createClient();
+  const sb = supabase as any;
 
-  const { error } = await supabase
+  const { error } = await sb
     .from('orders')
     .update({ status })
     .eq('id', orderId);

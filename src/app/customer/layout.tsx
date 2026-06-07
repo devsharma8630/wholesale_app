@@ -12,7 +12,7 @@ export default async function CustomerLayout({ children }: { children: React.Rea
       .select('full_name')
       .eq('id', user.id)
       .single();
-    customerName = profile?.full_name || '';
+    customerName = (profile as any)?.full_name || '';
   }
 
   return (
