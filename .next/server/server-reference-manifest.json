@@ -1,0 +1,209 @@
+{
+  "node": {
+    "0073bd7eabdb34b07f5573db7c11da75062b883fa1": {
+      "workers": {
+        "app/(auth)/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/cart/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/owner/dashboard/page": "action-browser",
+        "app/owner/products/page": "action-browser",
+        "app/owner/orders/page": "action-browser",
+        "app/customer/dashboard/page": "action-browser",
+        "app/customer/orders/page": "action-browser",
+        "app/customer/products/page": "action-browser",
+        "app/customer/cart/page": "action-browser"
+      }
+    },
+    "404dec2ff0da6e878b6413fae5deea43349308c32e": {
+      "workers": {
+        "app/(auth)/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/cart/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/owner/dashboard/page": "action-browser",
+        "app/owner/products/page": "action-browser",
+        "app/owner/orders/page": "action-browser",
+        "app/customer/dashboard/page": "action-browser",
+        "app/customer/orders/page": "action-browser",
+        "app/customer/products/page": "action-browser",
+        "app/customer/cart/page": "action-browser"
+      }
+    },
+    "4079b6da3b880f8a6d6535e5ebbd89908700a36ae5": {
+      "workers": {
+        "app/(auth)/login/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/owner/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/dashboard/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/cart/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/owner/dashboard/page": "action-browser",
+        "app/owner/products/page": "action-browser",
+        "app/owner/orders/page": "action-browser",
+        "app/customer/dashboard/page": "action-browser",
+        "app/customer/orders/page": "action-browser",
+        "app/customer/products/page": "action-browser",
+        "app/customer/cart/page": "action-browser"
+      }
+    },
+    "40244c09af201eacbbd3e1e3eb1bd496bf782e7762": {
+      "workers": {
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/owner/products/page": "action-browser"
+      }
+    },
+    "4097241300c885596a07024943572a247c5df044cf": {
+      "workers": {
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/owner/products/page": "action-browser"
+      }
+    },
+    "60b75ef1de3fec5c80b499fbb75d65e9f74a4ed218": {
+      "workers": {
+        "app/owner/products/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cproducts.ts%22%2C%5B%5B%2240244c09af201eacbbd3e1e3eb1bd496bf782e7762%22%2C%22deleteProduct%22%5D%2C%5B%224097241300c885596a07024943572a247c5df044cf%22%2C%22createProduct%22%5D%2C%5B%2260b75ef1de3fec5c80b499fbb75d65e9f74a4ed218%22%2C%22updateProduct%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/owner/products/page": "action-browser"
+      }
+    },
+    "4045c30d6fe499aa33ed8c29ba913e44aaac3e5a31": {
+      "workers": {
+        "app/owner/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/cart/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/owner/orders/page": "action-browser",
+        "app/customer/cart/page": "action-browser"
+      }
+    },
+    "602de545f80f976ee33ee3ba34d95a882f7a55d73d": {
+      "workers": {
+        "app/owner/orders/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/customer/cart/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%5B%220073bd7eabdb34b07f5573db7c11da75062b883fa1%22%2C%22logout%22%5D%2C%5B%22404dec2ff0da6e878b6413fae5deea43349308c32e%22%2C%22login%22%5D%2C%5B%224079b6da3b880f8a6d6535e5ebbd89908700a36ae5%22%2C%22register%22%5D%5D%5D%2C%5B%22C%3A%5C%5CVikash%5C%5Cwholesale-shop%5C%5Csrc%5C%5Cactions%5C%5Corders.ts%22%2C%5B%5B%224045c30d6fe499aa33ed8c29ba913e44aaac3e5a31%22%2C%22placeOrder%22%5D%2C%5B%22602de545f80f976ee33ee3ba34d95a882f7a55d73d%22%2C%22updateOrderStatus%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/owner/orders/page": "action-browser",
+        "app/customer/cart/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "HGehtTEaGqYwqocz5iKURBTJRzqrOsGxeAzu4dr6A8k="
+}
